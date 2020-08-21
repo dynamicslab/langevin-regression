@@ -54,11 +54,14 @@ References
    Jean-Christophe Loiseau,
    Georgios Rigas,
    and Steven L. Brunton
-   *Nonlinear stochastic modeling with Langevin regression.* arXiv preprint arXiv:2004.08424 (2020)
-   `[arXiv] <https://arxiv.org/abs/2004.08424>`_
+   *Nonlinear stochastic modeling with Langevin regression.* __Add arxiv reference__
 
 -  Steven L. Brunton, Joshua L. Proctor, and J. Nathan Kutz.
    *Discovering governing equations from data by sparse identification
    of nonlinear dynamical systems.* Proceedings of the National
    Academy of Sciences 113.15 (2016): 3932-3937.
    `[DOI] <http://dx.doi.org/10.1073/pnas.1517384113>`__
+   
+- Lorenzo Boninsegna, Feliks Nüske, and Cecilia Clementi. *Sparse learning of stochastic dynamic equations.* Journal of Chemical Physics 148.24 (2018). `[DOI] <https://doi.org/10.1063/1.5018409>__
+
+- Complete bibliography in the manuscript
