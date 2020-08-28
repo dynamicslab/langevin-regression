@@ -2,7 +2,7 @@
 ___________
 __J. L. Callaham, J.-C. Loiseau, G. Rigas, and S. L. Brunton (2020)__
 
-Code and details for the manuscript on data-driven stochastic modeling with Langevin regression. The repository should have everything needed to reproduce the results of the simulated systems in the paper and demonstrate the basics of Langevin regression. The main ideas are:
+Code and details for the manuscript on data-driven stochastic modeling with Langevin regression. The repository should have everything needed to reproduce the results of the systems in the paper and demonstrate the basics of Langevin regression. The main ideas are:
 
 1. Estimating drift and diffusion from data with Kramers-Moyal averaging
 2. Correcting finite-time sampling effects with the adjoint Fokker-Planck equation
@@ -46,6 +46,10 @@ On short time scales, the dynamics of the state $x$ are smooth, since the direct
 
 Far from the bifurcation we can continue to model the macroscopic dynamics, but we have to resort to data-driven methods.
 This notebook demonstrates the use of Langevin regression to reduce the dynamics to a first-order system with consistent statistics over a wide range of parameters.
+
+### 3. Turbulent axisymmetric wake
+
+For the third example we model a global integral quantity (the center of pressure) from experimental measurements of the wake behind an axisymmetric bluff body.  We demonstrate that sparse stepwise regression (SSR) can clearly identify a model that balances accuracy and complexity from a library of candidate drift and diffusion functions.
 
 
 References
